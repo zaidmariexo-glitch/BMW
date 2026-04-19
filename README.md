@@ -1,3 +1,4 @@
+
 <html lang="ar" dir="rtl">
 
 <head>
@@ -649,23 +650,32 @@
         </div>
     </header>
 
-    <video class="background-video" autoplay muted loop playsinline>
-    <source src="BMW.mp4" type="video/mp4">
-</video>
-    <div class="video-overlay"></div>
+    <!-- قسم البطل مع الفيديو -->
+    <section class="video-hero" id="home">
+        <video class="background-video" autoplay muted loop playsinline>
+            <!-- اختر أحد هذه الفيديوهات -->
+            <source src="BMW.mp4" type="video/mp4">
+            <!-- فيديو بديل 1 -->
+            <source src="BMW.mp4" type="video/mp4">
+            <!-- فيديو محلي -->
+            <source src="BMW.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
 
-    <div class="hero-content">
-        <h2>اكتشف عالم BMW الفاخرة</h2>
-        <p>موقع معلوماتي شامل عن سيارات BMW - استكشف تاريخها العريق وتصاميمها المميزة وتقنياتها المتطورة</p>
-        <a href="#cars" class="info-button">
-            <i class="fas fa-car"></i> استكشف المعلومات
-        </a>
-    </div>
+        <div class="hero-content">
+            <h2>اكتشف عالم BMW الفاخرة</h2>
+            <p>موقع معلوماتي شامل عن سيارات BMW - استكشف تاريخها العريق وتصاميمها المميزة وتقنياتها المتطورة</p>
+            <a href="#cars" class="info-button">
+                <i class="fas fa-car"></i> استكشف المعلومات
+            </a>
+        </div>
 
-    <div class="scroll-indicator">
-        <i class="fas fa-chevron-down"></i>
-        <p>قم بالتمرير للأسفل</p>
-    </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+            <p>قم بالتمرير للأسفل</p>
+        </div>
+    </section>
+
     <!-- قسم السيارات -->
     <section class="cars-section" id="cars">
         <div class="section-title">
