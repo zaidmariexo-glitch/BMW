@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 
 <head>
@@ -667,8 +666,6 @@
         <i class="fas fa-chevron-down"></i>
         <p>قم بالتمرير للأسفل</p>
     </div>
-    </section>
-
     <!-- قسم السيارات -->
     <section class="cars-section" id="cars">
         <div class="section-title">
